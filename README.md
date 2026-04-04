@@ -5,3 +5,4 @@ It help you to track you daily activities.
 - Spring Boot
 - Jpa
 - Hibernate
+- angular
