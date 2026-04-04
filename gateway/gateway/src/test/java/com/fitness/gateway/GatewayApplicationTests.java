@@ -1,10 +1,10 @@
-package com.fitness.eureka;
+package com.fitness.gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EurekaApplicationTests {
+class GatewayApplicationTests {
 
 	@Test
 	void contextLoads() {
