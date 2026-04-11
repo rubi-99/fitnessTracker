@@ -15,14 +15,15 @@ public class UserValidationService {
 
     public boolean validateUser (String userId){
         try{
-            return userServiceWebClient.get()
-                    .uri("/api/users/{userId}/validate",userId)
+            return Boolean.TRUE.equals(userServiceWebClient.get()
+                    .uri("/api/users/{userId}/validate", userId)
                     .retrieve()
                     .bodyToMono(Boolean.class)
-                    .block();
+                    .block());
         }
         catch (WebClientException e){
-            e.printStackTrace();
+//            e.printStackTrace();
+            System.out.println(e.getMessage());
 
         }
 
