@@ -1,14 +1,13 @@
-package com.fitness.aiservice;
+package com.fitness.gateway;
 
-import lombok.Data;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AiserviceApplication {
+public class GatewayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AiserviceApplication.class, args);
+		SpringApplication.run(GatewayApplication.class, args);
 	}
 
 }
